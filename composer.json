@@ -1,0 +1,23 @@
+{
+    "name": "sywer/test-cache-service",
+    "description": "Cache service",
+    "type": "library",
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Ilya Shibailo",
+            "email": "ilya.shibailo@gmail.com"
+        }
+    ],
+    "require":
+    {
+        "php": "^7.0"
+    },
+    "autoload":
+    {
+        "psr-4": {
+            "Sywer\\CacheService\\": "src"
+        }
+    }
+}
